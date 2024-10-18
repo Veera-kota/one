@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .col,.col-6,.col-9,.col-4,.col-8,.col-3{
+            border: 1px solid blue;
+            background-color: rgb(193, 193, 243);
+        }
+    </style>
+ 
+</head>
+  <body>
+    <h1>Layouts</h1>
+    <p><u><b>Breakpoints</b></u></p>
+    <div class="container-sm">sm is small max to 540px</div>
+    <div class="container-md">md is medium max to 720px</div>
+    <div class="container-lg">lg is large max to 960px</div>
+    <div class="container-xl">xl is extra large max to 1140px</div>
+    <div class="container-xxl">xxl is extra extra large max to 1320px</div>
+    <div class="container-fluid">Fluid max is full width of a screen size</div>
+
+<br>
+    <p><u><b>Grid</b></u>-In Bootstrap max column length is 12 </p>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">one</div>
+            <div class="col">two</div>
+            <div class="col">three</div>
+        </div>
+    </div><br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">one</div>
+            <div class="col-6">two</div>
+            <div class="col">three</div>
+        </div><br>
+        <div class="row">
+            <div class="col-9">one</div>
+            <div class="col">two</div>
+        </div>
+    </div><br>
+
+    <p><u><b>Columns</b></u></p>
+    
+    <div class="container text-center">
+        <div class="row align-items-start">
+            <div class="col">one</div>
+            <div class="col">two</div>
+            <div class="col">thr</div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">one</div>
+            <div class="col">two</div>
+            <div class="col">thr</div>
+        </div>
+        <div class="row align-items-end">
+            <div class="col">one</div>
+            <div class="col">two</div>
+            <div class="col">thr</div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col align-self-start">one</div>
+            <div class="col align-self-center">two</div>
+            <div class="col align-self-end">thr</div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center">
+        <div class="row justify-content-start">
+            <div class="col-4">one</div>
+            <div class="col-4">two</div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-4">one</div>
+            <div class="col-4">two</div>
+        </div>
+        <div class="row justify-content-end">
+            <div class="col-4">one</div>
+            <div class="col-4">two</div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-4">one</div>
+            <div class="col-4">two</div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-4">one</div>
+            <div class="col-4">two</div>
+        </div>
+        <div class="row justify-content-evenly">
+            <div class="col-4">one</div>
+            <div class="col-4">two</div>
+        </div>
+    </div><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">It ocupies 8 columns</div>
+            <div class="col-9">It ocupies 9 columns</div>
+            <div class="col-3">It ocupies 3 columns</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
